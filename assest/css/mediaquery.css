@@ -1,0 +1,807 @@
+/* start 21/12/2023  6:30pm */
+
+
+/*----------------------------------- 1440px to up -----------------------------------------*/
+
+@media screen and(min-width:1441px) {
+    header {
+        width: 100%;
+    }
+    .container {
+        width: calc(100% - 264px);
+        margin: auto;
+    }
+    .hero .ssss {
+        left: 800px;
+        top: 75px;
+    }
+    .cards {
+        width: 100%;
+    }
+    .cards .container {
+        overflow: auto;
+    }
+    /*video section*/
+    .stop-icon svg {
+        padding: 15px;
+        width: 45px;
+        height: 45px;
+    }
+    .benefits .container {
+        width: calc(100% - 264px);
+        margin: auto;
+    }
+}
+
+
+/*---------------------------------------- laptop---------------------------------------------*/
+
+@media screen and (min-width:992px) and (max-width:1440px) {
+    header {
+        width: 100%;
+    }
+    .container {
+        width: calc(100% - 160px);
+        margin: auto;
+    }
+    .hero .ssss {
+        left: 267px;
+        top: 75px;
+    }
+    .cards .container {
+        overflow: auto;
+    }
+    .cards {
+        padding: 40px 0px;
+    }
+    .cards .card svg {
+        width: 80px;
+        height: 80px;
+    }
+    .cards .card {
+        padding: 0px 35px;
+    }
+    .benefits {
+        width: 100%;
+    }
+    .benefits .container {
+        width: calc(100% - 160px);
+        margin: auto;
+    }
+    .Our-Testimonials-card .paragraph-Testimonials {
+        flex-grow: 1;
+    }
+    .pricing-item-card span {
+        justify-content: space-between;
+    }
+}
+
+@media screen and (min-width:992px) and (max-width:1440px) {
+    .hero .ssss {
+        left: 267px;
+        top: 75px;
+    }
+}
+
+@media screen and (min-width:1333px) and (max-width:1413px) {
+    .hero .ssss {
+        left: 220px;
+        top: 75px;
+    }
+}
+
+@media screen and (min-width:1222px) and (max-width:1332px) {
+    .hero .ssss {
+        left: 199px;
+        top: 75px;
+    }
+}
+
+@media screen and (min-width:1220px) and (max-width:1290px) {
+    .hero .ssss {
+        left: 160px;
+        top: 75px;
+    }
+}
+
+@media screen and (min-width:1200px) and (max-width:1220px) {
+    .hero .ssss {
+        left: 150px;
+        top: 75px;
+    }
+}
+
+@media screen and (min-width:1180px) and (max-width:1200px) {
+    .hero .ssss {
+        left: 150px;
+        top: 75px;
+    }
+}
+
+@media screen and (min-width:1100px) and (max-width:1180px) {
+    .hero .ssss {
+        left: 100px;
+        top: 75px;
+    }
+}
+
+@media screen and (min-width:1080px) and (max-width:1100px) {
+    .hero .ssss {
+        left: 80px;
+        top: 75px;
+    }
+}
+
+@media screen and (min-width:993px) and (max-width:1100px) {
+    .hero .ssss {
+        left: 50px;
+        top: 75px;
+    }
+}
+
+
+/*-----------------------------------------tablet--------------------------------------------*/
+
+@media screen and (min-width:600px) and (max-width:992px) {
+    header {
+        width: 100%;
+    }
+    header nav {
+        display: none;
+    }
+    header .burgar-icone {
+        display: block;
+    }
+    .container {
+        width: calc(100% - 100px);
+        margin: auto;
+    }
+    header .auth {
+        justify-content: flex-start;
+    }
+    .hero {
+        width: 100%;
+        padding: 80px 0px 0px 0px;
+    }
+    .hero .ssss {
+        width: 35px;
+        height: 35px;
+        left: 25px;
+        top: 53px;
+    }
+    .hero .container {
+        text-align: center;
+        width: calc(100% - 100px);
+    }
+    .hero .icons {
+        border-radius: 4px;
+        padding: 10px;
+    }
+    .hero .icon {
+        gap: 8px;
+        border-radius: 11px;
+        padding: 10px 24px 10px 12px;
+    }
+    .hero h2 {
+        font-size: 26px;
+    }
+    .hero h3 {
+        font-size: 24px;
+        margin-top: 10px;
+        margin-bottom: 7px
+    }
+    .hero p {
+        font-size: 14px;
+        margin-bottom: 40px;
+    }
+    .hero .buttons-container {
+        gap: 9px;
+    }
+    .hero .buttons-container .explore-courses {
+        padding: 12px 18px;
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .hero .buttons-container .view-pricing {
+        padding: 12px 18px;
+        font-size: 16px;
+        font-weight: 600;
+    }
+    /*cards section*/
+    .cards .container {
+        padding: 25px 5px;
+        overflow: auto;
+    }
+    .cards {
+        padding: 35px 0px;
+    }
+    .cards .card svg {
+        width: 75px;
+        height: 75px;
+    }
+    .cards .card {
+        padding: 0px 30px;
+    }
+    /*video section*/
+    .stop-icon svg {
+        padding: 8px;
+        width: 22px;
+        height: 22px;
+    }
+    /*benefits section*/
+    .side-one h2 {
+        font-size: 32px;
+    }
+    .side-one p {
+        font-size: 14px;
+    }
+    .space h3 {
+        font-size: 20px;
+    }
+    .space p {
+        font-size: 16px;
+    }
+    .benefits-item {
+        padding-top: 40px;
+    }
+    .benefits .item-row,
+    .our-courses .item-row,
+    .Our-Testimonials-item .item-row,
+    .Our-pricing-item .item-row {
+        gap: 20px;
+    }
+    .benefits-card {
+        display: flex;
+        flex-direction: column;
+        padding: 12px;
+        width: calc((100% - 20px) /2);
+        gap: 20px;
+        border-radius: 12px;
+    }
+    .benefits-card span {
+        font-size: 35px;
+    }
+    .benefits-card svg {
+        width: 25;
+        height: 25;
+        border-radius: 8px;
+        padding: 8px;
+    }
+    /*our-courses section*/
+    .our-courses-card {
+        gap: 20px;
+        border-radius: 12px;
+        padding: 20px;
+        align-items: stretch;
+        flex-grow: 1;
+    }
+    .space h3 {
+        font-size: 18px;
+    }
+    .space p {
+        margin-bottom: 14px;
+        font-size: 12px;
+    }
+    .our-courses-card img {
+        width: 100%;
+    }
+    .our-courses-card .info-courses {
+        display: flex;
+        justify-content: space-between;
+        font-size: 12px;
+        align-items: center;
+    }
+    .info-courses .info-courses2 {
+        display: flex;
+        gap: 10px;
+        font-size: 12px;
+    }
+    .our-courses-card .info-courses {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: flex-start;
+    }
+    .info-courses .info-courses2 span:first-of-type {
+        border-radius: 6px;
+        padding: 5px 10px;
+    }
+    .info-courses .info-courses2 span:last-of-type {
+        border-radius: 6px;
+        padding: 5px 10px;
+    }
+    .benefits button,
+    .our-courses button,
+    .Our-Testimonials button {
+        font-size: 16px;
+        padding: 12px 16px;
+        border-radius: 6px;
+    }
+    .our-courses-card .space {
+        flex-grow: 1;
+    }
+    /*our testimonials*/
+    .Our-Testimonials-card {
+        width: calc((100% - 20px) /2);
+    }
+    .Our-Testimonials-card .paragraph-Testimonials {
+        padding: 20px;
+        flex-grow: 1;
+    }
+    .Our-Testimonials-card .Testimonials-users {
+        padding: 11px;
+        width: 100%;
+    }
+    .Testimonials-users .users {
+        gap: 8px;
+    }
+    .Testimonials-users .users img {
+        width: 43px;
+        height: 43px;
+    }
+    .Testimonials-users .users span {
+        font-size: 12px;
+    }
+    .Testimonials-users button {
+        font-size: 13px;
+        padding: 12px 8px;
+    }
+    /*our pricing section*/
+    .Our-pricing-item {
+        width: 100%;
+        padding: 10px;
+    }
+    .pricingcards {
+        width: 100%;
+        padding: 20px 8px 20px 8px;
+        gap: 10px;
+    }
+    .buttons-our-pricing {
+        padding: 8px;
+        font-size: 16px;
+    }
+    .buttons-our-pricing button:first-of-type {
+        padding: 10px;
+    }
+    .buttons-our-pricing button:last-of-type {
+        padding: 10px;
+    }
+    .our-pricing-card h4 {
+        font-size: 17px;
+        padding: 10px 20px;
+    }
+    .price span:first-of-type {
+        font-size: 40px;
+    }
+    .pricing-item-card {
+        flex: 1 1 250;
+    }
+    .sub-card {
+        padding: 15px;
+        gap: 15px;
+    }
+    .pricing-item-card svg {
+        width: 35px;
+        height: 35px;
+    }
+    .pricingcards button {
+        font-size: 14px;
+    }
+    .pricing-item-card span {
+        align-items: stretch;
+    }
+    /*footer section*/
+    footer .end {
+        margin-top: 25px;
+    }
+}
+
+
+/*-----------------------------------------mobile--------------------------------------------*/
+
+@media screen and (min-width:320px) and (max-width:600px) {
+    header {
+        width: 100%;
+    }
+    .container {
+        width: calc(100% - 50px);
+        margin: auto;
+    }
+    .row {
+        padding: 30px 0px;
+    }
+    .navbar .logo img {
+        width: 30px;
+        height: 30px;
+    }
+    header nav {
+        display: none;
+    }
+    header .burgar-icone {
+        display: block;
+    }
+    header .burgar-icone svg {
+        width: 30px;
+        height: 31px;
+    }
+    .row .auth {
+        gap: 10px;
+    }
+    header .row .auth .signup {
+        color: var(--grey-15, #262626);
+        font-size: 12px;
+    }
+    header .row .auth .login {
+        color: var(--absolute-white, #FFF);
+        font-size: 12px;
+        background-color: var(--orange-50, #FF9500);
+        padding: 7px 14px;
+    }
+    .hero {
+        width: 100%;
+        padding: 50px 0px 0px 0px;
+        position: relative;
+    }
+    .hero .ssss {
+        width: 25px;
+        height: 25px;
+        position: absolute;
+        left: 10px;
+        top: 35px;
+    }
+    .hero .container {
+        text-align: center;
+        width: calc(100% - 50px);
+    }
+    .hero .icons {
+        border-radius: 5px;
+        padding: 5px;
+        width: 25px;
+        height: 26px;
+    }
+    .hero .icon {
+        gap: 4px;
+        border-radius: 8px;
+        padding: 5px 8px 5px 6px;
+    }
+    .hero h2 {
+        font-size: 16px;
+    }
+    .hero h3 {
+        font-size: 15px;
+        margin-top: 8px;
+        margin-bottom: 6px
+    }
+    .hero p {
+        font-size: 11px;
+        margin-bottom: 30px;
+    }
+    .hero .buttons-container {
+        gap: 5px;
+    }
+    .hero .buttons-container .explore-courses {
+        padding: 6px 10px;
+        font-size: 12px;
+        font-weight: 600;
+    }
+    .hero .buttons-container .view-pricing {
+        padding: 6px 10px;
+        font-size: 12px;
+        font-weight: 600;
+    }
+    /*cards section*/
+    .cards .container {
+        padding: 15px 4px;
+        overflow: auto;
+    }
+    .cards {
+        padding: 30px 0px;
+    }
+    .cards .card svg {
+        width: 65px;
+        height: 65px;
+    }
+    .cards .card {
+        padding: 0px 20px;
+    }
+    /* video section*/
+    .stop-icon svg {
+        padding: 6px;
+        width: 17px;
+        height: 17px;
+    }
+    /*benefits section*/
+    .benefits {
+        width: 100%;
+    }
+    .side {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+    .side-one {
+        display: flex;
+        gap: 10px;
+        width: 100%;
+    }
+    .side-one h2 {
+        font-size: 20px;
+    }
+    .side-one p {
+        font-size: 12px;
+        width: 100%;
+    }
+    .item-row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+    .benefits-card {
+        padding: 10px;
+        width: 100%;
+        gap: 20px;
+        border-radius: 8px;
+    }
+    .benefits button,
+    .our-courses button,
+    .Our-Testimonials button {
+        font-size: 14px;
+        padding: 10px 18px;
+        border-radius: 4px;
+    }
+    .benefits .but button {
+        display: flex;
+        flex-direction: column;
+    }
+    .benefits-item {
+        padding-top: 30px;
+    }
+    .benefits-card span {
+        font-size: 25px;
+        font-weight: 600;
+        align-self: flex-end;
+    }
+    .space h3 {
+        margin-bottom: 10px;
+        font-size: 14px;
+    }
+    .space p {
+        font-size: 14px;
+    }
+    .benefits-card svg {
+        width: 20;
+        height: 20px;
+        border-radius: 6px;
+        padding: 5px;
+    }
+    /*our-courses section*/
+    .our-courses-card {
+        width: 100%;
+        gap: 20px;
+        border-radius: 8px;
+        padding: 10px;
+    }
+    .our-courses-card img {
+        width: 100%;
+    }
+    .info-courses .info-courses2 {
+        gap: 6px;
+        font-size: 12px;
+    }
+    .our-courses-card .info-courses {
+        flex-direction: column;
+        font-size: 12px;
+        gap: 8px;
+        align-items: flex-start;
+    }
+    .info-courses .info-courses2 span:first-of-type {
+        border-radius: 6px;
+        padding: 7px 10px;
+    }
+    .info-courses .info-courses2 span:last-of-type {
+        border-radius: 6px;
+        padding: 5px 10px;
+    }
+    .our-courses button,
+    .Our-Testimonials button {
+        font-size: 14px;
+        padding: 10px 18px;
+        border-radius: 4px;
+    }
+    /*our testimonials*/
+    .Our-Testimonials-card {
+        width: 100%;
+    }
+    .Our-Testimonials-card .paragraph-Testimonials {
+        padding: 20px;
+        font-size: 14px;
+        flex-grow: 1;
+    }
+    .Our-Testimonials-card .Testimonials-users {
+        padding: 11px;
+        width: 100%;
+    }
+    .Testimonials-users .users {
+        gap: 8px;
+    }
+    .Testimonials-users .users img {
+        width: 43px;
+        height: 43px;
+    }
+    .Testimonials-users .users span {
+        font-size: 12px;
+    }
+    .Testimonials-users button {
+        font-size: 13px;
+        padding: 12px 8px;
+    }
+    /*Our-pricing*/
+    .Our-pricing-item {
+        width: 100%;
+        padding: 10px;
+    }
+    .pricingcards {
+        width: 100%;
+        padding: 20px 12px 20px 12px;
+        gap: 10px;
+    }
+    .centtter {
+        margin: auto;
+    }
+    .buttons-our-pricing {
+        padding: 8px;
+        font-size: 14px;
+    }
+    .buttons-our-pricing button:first-of-type {
+        padding: 8px;
+    }
+    .buttons-our-pricing button:last-of-type {
+        padding: 8px;
+    }
+    .our-pricing-card h4 {
+        font-size: 15px;
+        padding: 12px 22px;
+    }
+    .price span:first-of-type {
+        font-size: 40px;
+        font-weight: 600;
+    }
+    .price span:last-of-type {
+        font-size: 17px;
+    }
+    .sub-card {
+        padding: 15px;
+        gap: 15px;
+    }
+    .pricing-item-card {
+        padding: 10px;
+        display: flex;
+        gap: 10px;
+    }
+    .pricing-item-card svg {
+        width: 35px;
+        height: 35px;
+    }
+    .pricingcards button {
+        font-size: 14px;
+    }
+    /*footer section*/
+    footer {
+        padding: 10px 0px;
+    }
+    footer .start .connections .footer-icon button {
+        font-size: 14px;
+    }
+    footer .start .connections .footer-icon svg {
+        width: 20px;
+        height: 21px;
+    }
+    footer .end {
+        margin-top: 25px;
+        gap: 15px;
+        flex-wrap: wrap;
+    }
+    .end .control-list h3 {
+        font-size: 15px;
+    }
+    .control-list ul li {
+        font-size: 14px;
+    }
+    .control-list .buttons-footer button svg {
+        width: 15px;
+        height: 15px;
+    }
+    .copyright {
+        font-size: 12px;
+    }
+}
+
+
+/*---------------------------------------------------extra----------------------------------------------------*/
+
+@media screen and (max-width: 319px) {
+    header {
+        width: 100%;
+    }
+    .container {
+        width: calc(100% - 40px);
+        margin: auto;
+    }
+    .row {
+        padding: 10px 0px;
+    }
+    .navbar .logo img {
+        width: 10px;
+        height: 10px;
+    }
+    header nav {
+        display: none;
+    }
+    header .burgar-icone {
+        display: block;
+    }
+    header .burgar-icone svg {
+        width: 14px;
+        height: 15px;
+    }
+    .row .auth {
+        gap: 6px;
+    }
+    header .row .auth .signup {
+        color: var(--grey-15, #262626);
+        font-size: 10px;
+    }
+    header .row .auth .login {
+        color: var(--absolute-white, #FFF);
+        font-size: 10px;
+        background-color: var(--orange-50, #FF9500);
+        padding: 5px 12px;
+    }
+    .hero {
+        width: 100%;
+    }
+    .cards .container {
+        overflow: auto;
+    }
+    .cards .card svg {
+        width: 44px;
+        height: 44px;
+    }
+    .benefits-card {
+        width: 100%;
+    }
+    .our-courses-card {
+        width: 100%;
+    }
+    .Our-Testimonials-card {
+        width: 100%;
+    }
+    .pricingcards {
+        width: 100%;
+    }
+    footer .start .connections .footer-icon button {
+        font-size: 14px;
+    }
+    footer .end {
+        display: flex;
+        flex-direction: column;
+    }
+    .control-list ul li {
+        font-size: 14px;
+    }
+}
+
+
+/*8:27pm 25/12/2023 slioona
+ :) خلصت الفوتر ضايل سكشن فيديو و سكشن كاردس 
+
+*/
+
+
+/*10:49pm 28/12/2023  slioona
+تبقى القليلللل : ) >.<
+------------------------------
+7:30pm 29/12/2023  slioona
+8:33pm 
+
+*/

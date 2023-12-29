@@ -1,0 +1,688 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* public class*/
+
+body {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    background: var(--white-97, #F7F7F8);
+    height: 900px;
+}
+
+.container {
+    width: calc(100% - 264px);
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    background: none;
+    border: none;
+    border-radius: 8px;
+    text-transform: capitalize;
+}
+
+.space h3 {
+    margin-bottom: 14px;
+    font-size: 24px;
+}
+
+.space p {
+    font-size: 18px;
+    color: var(--Grey-30, #4C4C4D);
+}
+
+
+/*public class end */
+
+header {
+    border-bottom: 2px solid var(--white-95, #F1F1F3);
+    position: sticky;
+    background: var(--white-97, #F7F7F8);
+    top: 0;
+    z-index: 10;
+    width: 100%;
+}
+
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 50px;
+}
+
+.logo img {
+    aspect-ratio: 544 / 54;
+}
+
+header .row nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 26px;
+}
+
+header .row nav ul a {
+    color: var(--grey-15, #262626);
+    font-size: 18px;
+    padding: 14px 0px;
+}
+
+.row nav ul .home {
+    padding: 14px 24px;
+    border-radius: 8px;
+    background: var(--white-95, #F1F1F3);
+}
+
+.row .auth {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+header .row .auth .signup {
+    color: var(--grey-15, #262626);
+    font-size: 18px;
+}
+
+header .row .auth .login {
+    color: var(--absolute-white, #FFF);
+    font-size: 18px;
+    background-color: var(--orange-50, #FF9500);
+    padding: 14px 34px;
+}
+
+.burgar-icone {
+    display: none;
+}
+
+
+/*hero section*/
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    padding: 100px 0px 0px 0px;
+    position: relative;
+}
+
+.hero .container {
+    width: fit-content;
+    text-align: center;
+}
+
+
+.hero .ssss {
+    position: absolute;
+    left: 280px;
+    top: 75px;
+    
+}
+
+.hero .icons {
+    background-color: var(--orange-95, #FFF4E5);
+    border-radius: 6px;
+    padding: 14px;
+    box-sizing: content-box;
+}
+
+.hero .icon {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    background-color: var(--white-99, #FCFCFD);
+    border: 1px solid var(--white-95, #F1F1F3);
+    border-radius: 11px;
+    padding: 14px 30px 14px 20px;
+}
+
+.hero h2 {
+    color: var(--grey-10, #1A1A1A);
+    font-size: 48px;
+}
+
+.hero span {
+    color: var(--orange-50, #FF9500);
+}
+
+.hero h3 {
+    color: var(--grey-15, #262626);
+    font-size: 38px;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 10px
+}
+
+.hero p {
+    color: var(--grey-15, #262626);
+    font-size: 18px;
+    spacing: line;
+    margin-bottom: 60px;
+}
+
+.hero .buttons-container {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+
+.hero .buttons-container .explore-courses {
+    color: var(--absolute-white, #FFF);
+    background-color: var(--orange-50, #FF9500);
+    padding: 18px 24px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.hero .buttons-container .view-pricing {
+    color: var(--grey-15, #262626);
+    background-color: var(--absolute-white, #FFF);
+    padding: 18px 24px;
+    border: 1px solid var(--white-95, #F1F1F3);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+/* cards section */
+
+.cards {
+    padding: 60px 0px;
+}
+
+.cards .container {
+    display: flex;
+    background-color: var(--white-99, #FCFCFD);
+    border: 1px solid var(--white-95, #F1F1F3);
+    border-radius: 12px;
+    padding: 30px 10px;
+   
+
+}
+
+ .card svg {
+    aspect-ratio: 34 / 58;
+}
+
+.card {
+    
+      padding: 30px 40px;
+    border-right: 1px solid #F1F1F3;
+   display: flex;
+    flex: 1 0 0; 
+       justify-content: center;
+    align-items: center;
+   
+}
+
+.card2 {
+    border: none;
+}
+
+
+/*video section*/
+
+.video {
+
+   position:relative;
+    
+}
+
+
+.video  img {
+    width: 100%;
+     
+}
+
+
+.stop-icon  svg{
+border-radius: 30px;
+border: 3px solid rgba(255, 255, 255, 0.30);
+padding:10px;
+ position:absolute;
+background: rgba(255, 255, 255, 0.20);
+ box-sizing:content-box;
+ width:30px; 
+ height:30px;
+}
+.stop-icon  {
+   display:flex;
+    align-items:center; 
+justify-content:center;
+
+    
+}
+
+
+/*benefits section*/
+
+.benefits.row {
+    gap: 220px;
+}
+
+.side {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.side-one {
+    width: calc(100% - 220px);
+}
+
+.side-one {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.side-one h2 {
+    color: var(--grey-15, #262626);
+    font-size: 48px;
+}
+
+.side-one p {
+    color: var(--grey-35, #59595A);
+    font-size: 16px;
+}
+
+.benefits button,
+.our-courses button,
+.Our-Testimonials button {
+    color: var(--grey-15, #262626);
+    font-size: 18px;
+    padding: 18px 24px;
+    background-color: var(--white-99, #FCFCFD);
+    border: 1px solid var(--white-95, #F1F1F3);
+    border-radius: 8px;
+}
+
+.benefits-item {
+    padding-top: 80px;
+}
+
+.item-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.benefits-card {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    width: calc((100% - 40px) /3);
+    gap: 50px;
+    border-radius: 12px;
+    background: var(--absolute-white, #FFF);
+}
+
+.benefits-card span {
+    font-size: 40px;
+    font-weight: 600;
+    align-self: flex-end;
+}
+
+.benefits-card svg {
+    aspect-ratio: 34/34;
+    border-radius: 8px;
+    border: 1px solid var(--white-95, #F1F1F3);
+    background: var(--white-99, #FCFCFD);
+    padding: 20px;
+    box-sizing: content-box;
+    align-self: flex-end;
+}
+
+
+/*our-course section*/
+
+.our-courses .side-one,
+.Our-Testimonials .side-one,
+.Our-pricing .side-one {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.our-courses .item-row,
+.Our-Testimonials-item .item-row,
+.Our-pricing-item .item-row {
+    display: flex;
+    gap: 30px;
+    padding: 40px 0px;
+}
+
+.our-courses-card {
+    width: calc((100% - 30px)/2);
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-color: var(--Absolute-White, #FFF);
+    border: 1px solid var(--White-95, #F1F1F3);
+    border-radius: 12px;
+    padding: 30px;
+}
+
+.our-courses-card img {
+    width: 100%;
+}
+
+.our-courses-card .info-courses {
+    display: flex;
+    justify-content: space-between;
+    color: var(--Grey-15, #262626);
+    font-size: 20px;
+    align-items: center;
+}
+
+.info-courses .info-courses2 {
+    display: flex;
+    gap: 10px;
+    color: var(--Grey-30, #4C4C4D);
+    font-size: 18px;
+}
+
+.info-courses .info-courses2 span:first-of-type {
+    background-color: var(--Absolute-White, #FFF);
+    border: 1px solid var(--White-95, #F1F1F3);
+    border-radius: 8px;
+    padding: 10px 16px;
+}
+
+.info-courses .info-courses2 span:last-of-type {
+    background-color: var(--Absolute-White, #FFF);
+    border: 1px solid var(--White-95, #F1F1F3);
+    border-radius: 8px;
+    padding: 10px 16px;
+}
+
+.our-courses-card .space {
+    flex-grow: 1;
+}
+
+.our-courses-card button {
+    background-color: var(--White-97, #F7F7F8);
+}
+
+
+/*Our-Testimonials section*/
+
+.Our-Testimonials-card {
+    width: calc((100% - 30px)/2);
+    display: flex;
+    flex-direction: column;
+    background-color: var(--Absolute-White, #FFF);
+    border-radius: 8px;
+}
+
+.Our-Testimonials-card .paragraph-Testimonials {
+    color: var(--Grey-30, #4C4C4D);
+    padding: 25px;
+}
+
+.Our-Testimonials-card .Testimonials-users {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    border: 2px solid #F9F9F7;
+    background: var(--White-99, #FCFCFD);
+    border-radius: 0px 0px 8px 8px;
+}
+
+.Testimonials-users .users {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background: var(--White-99, #FCFCFD);
+}
+
+.Testimonials-users .users span {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.Testimonials-users .button {
+    display: flex;
+    align-self: flex-end;
+    border-radius: 8px;
+    border: 1px solid var(--White-95, #F1F1F3);
+    background: var(--White-97, #F7F7F8);
+}
+
+
+/*Our Pricing section*/
+
+.buttons-our-pricing {
+    border-radius: 8px;
+    background: var(--Absolute-White, #FFF);
+    padding: 12px;
+    font-size: 18px;
+  
+
+}
+
+
+
+
+/*from here in css*/
+
+.buttons-our-pricing button:first-of-type {
+    background-color: var(--Orange-50, #FF9500);
+    color: var(--Absolute-White, #FFF);
+    padding: 12px 15px;
+}
+
+.buttons-our-pricing button:last-of-type {
+    color: var(--Grey-30, #4C4C4D);
+    padding: 12px 15px;
+}
+
+.Our-pricing .side {
+    margin-bottom: 30px;
+}
+
+.Our-pricing-item {
+    width: 100%;
+    padding: 35px;
+    border-radius: 12px;
+    background: var(--Absolute-White, #FFF);
+}
+
+.pricingcards {
+    border-radius: 12px;
+    border: 1px solid var(--White-95, #F1F1F3);
+    background: var(--White-99, #FCFCFD);
+    padding: 40px 25px 25px 25px;
+    width: calc((100% - 30px) / 2);
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+}
+
+.pricingcards h4,
+button {
+    text-align: center;
+}
+
+.our-pricing-card {
+    width: 100%;
+}
+
+.our-pricing-card h4 {
+    color: var(--Grey-15, #262626);
+    font-size: 19px;
+    background-color: var(--Orange-97, #FFF9F0);
+    border: 1px solid var(--Orange-90, #FFEACC);
+    border-radius: 6px;
+    padding: 12px 22px;
+}
+
+.price span:first-of-type {
+    color: var(--Grey-15, #262626);
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.price span:last-of-type {
+    color: var(--Grey-30, #4C4C4D);
+    font-size: 17px;
+}
+
+.sub-card {
+    background-color: var(--Absolute-White, #FFF);
+    border: 1px solid var(--White-95, #F1F1F3);
+    border-radius: 14px 14px 0px 0px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.all-item {
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.pricing-item-card {
+    border: 1px solid var(--White-95, #F1F1F3);
+    border-radius: 8px;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.pricing-item-card {
+    color: var(--Grey-30, #4C4C4D);
+    font-size: 17px;
+}
+
+.pricing-item-card svg {
+    background-color: var(--Orange-95, #FFF4E5);
+    border-radius: 3px;
+    padding: 6px;
+    box-sizing: border-box;
+}
+
+.pricingcards button {
+    color: var(--Absolute-White, #FFF);
+    font-size: 18px;
+    font-weight: 600;
+    background-color: var(--Orange-50, #FF9500);
+    border-radius: 0px 0px 8px 8px;
+    padding: 20px 24px;
+    width: 100%;
+}
+
+
+/*9:30pm - 11:32pm 17/12/2023 our-pricing section
+from here in css .buttons-our-pricing button:first-of-type  to end this section ^-^ */
+
+
+/*footer section */
+
+footer {
+    background-color: var(--Absolute-White, #FFF);
+    text-transform: capitalize;
+    padding: 40px 0px;
+}
+
+footer .start {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+footer .start .connections {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+footer .start .connections .footer-icon {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+footer .start .connections .footer-icon button {
+    color: var(--Grey-15, #262626);
+    font-size: 18px;
+}
+
+footer .end {
+    display: flex;
+    gap: 80px;
+}
+
+footer .end .control-list {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.control-list ul {
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.control-list ul li {
+    list-style-type: none;
+    font-size: 18px;
+}
+
+.control-list ul li a {
+    color: var(--Grey-35, #59595A);
+}
+
+.control-list .buttons-footer {
+    display: flex;
+    gap: 12px;
+}
+
+.control-list .buttons-footer svg {
+    background-color: var(--White-97, #F7F7F8);
+    border: 1px solid var(--White-95, #F1F1F3);
+    border-radius: 8px;
+    padding: 7px;
+    box-sizing: content-box;
+}
+
+footer .row {
+    border-bottom: 2px solid #F1F1F3;
+    padding: 40px 0px;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    padding: 40px 0px 0px 0px;
+}
+
+
+/* 9:5pm 18/12/2023 finish footer section  */
+
+
+
+
+
